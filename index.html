@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Anil Vishwakarma N | Linux & AWS Cloud Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: 'Roboto', sans-serif;
+        background: #f2f3f7;
+        color: #333;
+        line-height: 1.6;
+    }
+    a { color: #1abc9c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container { max-width: 1200px; margin: 40px auto; padding: 20px; }
+
+    /* Hero Section */
+    .hero { text-align: center; margin-bottom: 40px; }
+    .hero h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3em;
+        background: linear-gradient(90deg, #6a0dad, #1abc9c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 10px;
+    }
+    .hero h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4em;
+        color: #6a0dad;
+    }
+
+    /* Grid Layout */
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8em;
+        background: linear-gradient(90deg, #6a0dad, #1abc9c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 15px;
+    }
+
+    .card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.07);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.15); }
+
+    ul { margin-left: 20px; margin-bottom: 15px; }
+    li { margin-bottom: 8px; }
+    li ul { list-style-type: circle; margin-top: 5px; }
+
+    .highlight { color: #1abc9c; font-weight: bold; }
+    .skills li i { color: #6a0dad; margin-right: 8px; }
+    .aws li i { color: #1abc9c; margin-right: 6px; }
+
+    .contact p { margin-bottom: 8px; font-weight: 500; }
+    footer { text-align: center; margin-top: 40px; padding: 15px 0; color: #777; font-size: 0.9em; }
+
+    @media(max-width:900px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="hero">
+        <h1>Anil Vishwakarma N</h1>
+        <h3>Linux Administrator | AWS Cloud Engineer</h3>
+    </div>
+
+    <div class="grid">
+        <!-- Left Column -->
+        <div>
+            <h2>About Me</h2>
+            <div class="card">
+                <p>
+                    Motivated fresher with strong foundation in <span class="highlight">Linux system administration</span> 
+                    and <span class="highlight">cloud computing</span>. Completed academic projects like 
+                    <strong>PopcornFlix (Video CMS)</strong> and <strong>Resort Management System</strong>. Trained at 
+                    <strong>IT Skillnest</strong>, implementing a <span class="highlight">real-time AWS cloud project</span>.
+                </p>
+            </div>
+
+            <h2>Technical Skills</h2>
+            <div class="card skills">
+                <ul>
+                    <li><i class="fas fa-server"></i><strong>Operating System:</strong> Linux (File system, users, permissions, disk management)</li>
+                    <li><i class="fas fa-code-branch"></i><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><i class="fas fa-database"></i><strong>Database:</strong> MySQL, PostgreSQL (basic)</li>
+                    <li><i class="fas fa-cloud"></i><strong>Cloud Platform:</strong> AWS</li>
+                    <li class="aws"><strong>AWS Services:</strong>
+                        <ul>
+                            <li><i class="fab fa-aws"></i>EC2</li>
+                            <li><i class="fab fa-aws"></i>S3</li>
+                            <li><i class="fab fa-aws"></i>IAM</li>
+                            <li><i class="fab fa-aws"></i>VPC</li>
+                            <li><i class="fab fa-aws"></i>RDS</li>
+                            <li><i class="fab fa-aws"></i>EFS</li>
+                            <li><i class="fab fa-aws"></i>Lambda</li>
+                            <li><i class="fab fa-aws"></i>CloudWatch</li>
+                            <li><i class="fab fa-aws"></i>SNS</li>
+                            <li><i class="fab fa-aws"></i>DynamoDB (basic)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div>
+            <h2>Projects</h2>
+            <div class="card projects">
+                <h3>Academic Projects (BCA)</h3>
+                <ul>
+                    <li><strong>Main Project:</strong> PopcornFlix – Video Content Management System</li>
+                    <li><strong>Mini Project:</strong> Resort Management System</li>
+                </ul>
+
+                <h3>Hands-on Training Project</h3>
+                <ul>
+                    <li>Designed & implemented a <span class="highlight">real-time AWS cloud project</span></li>
+                    <li>Custom VPC with public & private subnets</li>
+                    <li>EC2 deployment with restricted SSH access</li>
+                    <li>IAM roles & policies for least privilege access</li>
+                    <li>S3 bucket setup & EFS shared storage</li>
+                    <li>PostgreSQL RDS deployment in private subnet</li>
+                    <li>Automated EC2 operations using Lambda & CloudWatch Events</li>
+                    <li>Monitoring & alerts with CloudWatch & SNS</li>
+                </ul>
+            </div>
+
+            <h2>Career Objective</h2>
+            <div class="card">
+                <p>
+                    Seeking an entry-level role as Linux Administrator or AWS Cloud Engineer to apply my technical skills, 
+                    gain industry exposure, and grow as a cloud and infrastructure professional.
+                </p>
+            </div>
+
+            <h2>Contact</h2>
+            <div class="card contact">
+                <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:anilvishwakarma1416@gmail.com">anilvishwakarma1416@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anil-vishwakarma14" target="_blank">linkedin.com/in/anil-vishwakarma14</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Anil Vishwakarma N
+    </footer>
+</div>
+</body>
+</html>
