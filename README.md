@@ -31,7 +31,7 @@ BCA main project focused on managing and organizing video content.
 Resort Management System  
 BCA mini project developed to handle bookings and basic resort operations.
 
-AWS Hands-on Cloud Project (Training)  
+AWS Hands-on Cloud Project (Training + Internship)  
 - Created a custom VPC with public and private subnets  
 - Deployed EC2 instances with secure access  
 - Managed permissions using IAM roles  
